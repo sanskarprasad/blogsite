@@ -1,12 +1,18 @@
 from django.contrib.auth import logout
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4b466b549ff821b6dc07b042f62ec917838d2232
 def logout_view(request):
     logout(request)
     messages.success(request, 'You have been logged out!')
     return render(request,'users/logout.html')
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4b466b549ff821b6dc07b042f62ec917838d2232
 from django.shortcuts import render, redirect
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
